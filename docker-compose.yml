@@ -1,0 +1,17 @@
+services:
+  fleet-graph-gateway:
+    image: fleet-graph-gateway
+    ports:
+      - "4000:4000"
+  fleet-graph-food:
+    image: fleet-graph-food
+    ports:
+      - "4010:4010"
+  fleet-graph-fitness:
+    image: fleet-graph-fitness
+    ports:
+      - "4011:80"
+  fleet-ui-food:
+    image: fleet-ui-food
+    ports:
+      - "80:80"
